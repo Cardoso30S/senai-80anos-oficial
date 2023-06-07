@@ -1,0 +1,315 @@
+/* PADRÃO DE CORES DO MANUAL SENAI */
+:root {
+    --red: #e30613;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #cecece;
+    --redMedium: #9a1915;
+    --redDark: #681413;
+}
+
+/* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: var(--gray);
+    width: 100%;
+    background-image: url(../img/imgbac.jpg);
+}
+
+header {
+    background-color: var(--white);
+    color: var(--black);
+    /* min-height: 60px; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    max-width: 1140px;
+    min-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-end: 45px;
+}
+
+hr {
+    width: 300px;
+    border: none;
+    height: 5px;
+    background: var(--red);
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    margin: 0;
+    color: var(--black);
+    font-family: 'Montserrat';
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    margin: 0;
+    color: var(--black);
+}
+
+h3 {
+    text-align: right;
+    font-family: 'Montserrat';
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--red);
+    width: 100%;
+    height: 25% !important;
+    bottom: 0;
+    padding-bottom: 30px;
+    position: relative;
+    margin: auto;
+}
+
+/* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
+.container-fluid {
+    max-width: 1140px;
+    justify-content: space-evenly !important;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding: 30px 0 10px 0;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    align-items: center;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-items-menu {
+    padding: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: var(--black);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.items-social-media {
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-link {
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    background-color: var(--white);
+    width: 1140px;
+    height: 500px;
+    border-radius: 100%;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.card {
+    text-align: center;
+    font-family: 'Montserrat';
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.felix {
+    padding-left: 5%;
+    padding-top: 10%;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.text {
+    color: var(--black);
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+.text1 {
+    font-size: large;
+    margin-top: 50px;
+}
+
+.titulo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    align-items: center;
+    background: var(--red);
+    font-family: 'Montserrat';
+
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.event {
+    position: relative;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.event-left {
+    width: 50%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    text-align: right;
+    font-family: 'Montserrat';
+}
+
+.event-right {
+    width: 50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+.event h2 {
+    margin-top: 0;
+    font-family: 'Montserrat';
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+    font-family: 'Montserrat';
+    box-shadow: 0 2px 4px rgb(0, 0, 0)
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: var(--red);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    font-family: 'Montserrat';
+}
+
+.active {
+    border-color: #3498db;
+    font-family: 'Montserrat';
+}
+
+.titulo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn.btn-secundary {
+    align-items: center;
+    background: var(--red);
+    font-family: 'Montserrat';
+    color: var(--white);
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-fluid{
+    width: 100% ;
+}
+/* AQUI COMEÇA AS MEDIAS QUERIES*/
+@media (min-width: 768px) {
+    .responsive {
+        width: 50%;
+        height: auto;
+    }
+}

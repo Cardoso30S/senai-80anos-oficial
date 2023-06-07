@@ -1,0 +1,790 @@
+/* PADRÃO DE CORES DO MANUAL SENAI */
+:root {
+    --red: #e30613;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #cecece;
+    --grayMedium: #707070;
+    --brown: #333;
+    --redMedium: #9a1915;
+    --redDark: #681413;
+  }
+  
+  
+  /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
+  * {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+  
+  }
+  
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: var(--gray);
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    text-align: justify;
+  }
+  
+  header {
+    background-color: var(--white);
+    color: var(--black);
+    /* min-height: 60px; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    align-items: center;
+    scroll-behavior: smooth !important;
+  }
+  
+  .content {
+  background: url(../img/fundo.png);
+  background-size: cover;
+              min-height: 100vh;
+              width: 100% ;
+              height: 100%;
+    scroll-behavior: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  main {
+    max-width: 1140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-block-end: 45px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  #cards1 {
+    max-width: 1045px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    margin-block-end: 45px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    margin: 0;
+    color: var(--black);
+    font-family: Montserrat, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    margin: 0;
+    color: var(--black);
+    font-family: Montserrat, sans-serif;
+  }
+  
+  footer {
+    background-color: var(--red);
+    width: 100%;
+    height: 25% !important;
+    bottom: 0;
+    padding-bottom: 10px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
+  .container-fluid {
+    max-width: 1140px;
+    justify-content: space-evenly !important;
+}
+
+  .container {
+    max-width: 1140px;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding: 50px 0 20px 0;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    align-items: center;
+  }
+  
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navbar-items-menu {
+    padding: 0;
+    border-bottom: 5px solid transparent;
+  }
+  
+  .nav-link {
+    font-weight: 700;
+    color: var(--black);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .logo-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #img-logo {
+    min-width: 350px;
+    max-width: 500px;
+  }
+  
+  .icons-materia {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .text-materia {
+    color: var(--black);
+  }
+  
+  .footer-icons {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .items-social-media {
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .footer-link {
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .linha {
+    color: var(--redMedium);
+    width: 20000px;
+    height: 20px;
+  }
+  
+  .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .slide-content {
+    margin: 0 40px;
+    border-radius: 25px;
+  }
+  
+  .card {
+    border-radius: 25px;
+    background-color: var(--white);
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .image-content,
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  
+  .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .slide-content {
+    margin: 0 40px;
+    border-radius: 25px;
+  }
+  
+  .card {
+    border-radius: 25px;
+    background-color: var(--white);
+    margin: 6px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .image-content,
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  
+  .image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  
+  .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--grayMedium);
+    border-radius: 25px 25px 0 25px;
+  }
+  
+  .overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--white);
+  }
+  
+  .card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: var(--grayMedium);
+    padding: 3px;
+  }
+  
+  .card-image .card-img {
+    width: 33%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--grayMedium);
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--brown);
+  }
+  
+  .description {
+    font-size: 14px;
+    color: var(--black);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .button {
+    border: none;
+    font-size: 16px;
+    color: var(--white);
+    padding: 8px 16px;
+    background-color: var(--red);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .button:hover {
+    background: var(--red);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-content {
+      margin: 0 10px;
+    }
+  
+    .swiper-navBtn {
+      display: none;
+    }
+  }
+  
+  .p1 {
+    color: var(--white);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  h2.no-background {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h2.no-background span {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  h2.no-background span:before,
+  h2.no-background span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    top: 0.73em;
+    border-top: 2px solid var(--red);
+  }
+  
+  h2.no-background span:before {
+    right: 100%;
+  }
+  
+  h2.no-background span:after {
+    left: 100%;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .main-timeline {
+    position: relative;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .main-timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: var(--grayMedium);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .timeline {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: var(--white);
+    border: 5px solid var(--red);
+    ;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    padding: 0px 0px 20px 40px;
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid var(--white);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent var(--white);
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid var(--white);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--white) transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -12px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+  
+    /* Place the timelime to the left */
+    .main-timeline::after {
+      left: 31px;
+    }
+  
+    /* Full-width containers */
+    .timeline {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline::before {
+      left: 60px;
+      border: medium solid var(--white);
+      border-width: 10px 10px 10px 0;
+      border-color: transparent var(--white) transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+      left: 18px;
+    }
+  
+    card .left::before {
+      right: auto;
+    }
+  
+    /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }
+  
+  .dropline {
+    z-index: 100;
+    margin: 0px;
+    border-top: 10px solid var(--red);
+    width: 100%;
+  }
+  
+  .red {
+    background-color: var(--red);
+  }
+  
+  .gray {
+    background-color: var(--grayMedium);
+  }
+  
+  .dropdown-menu {
+    width: 1000px;
+    height: 325px;
+    z-index: 2;
+  }
+  
+  .btn-red {
+    background-color: var(--red);
+  }
+  
+  .btn-gray {
+    background-color: var(--grayMedium);
+  }
+  
+  .f-white {
+    color: var(--white);
+    margin: 0px;
+  }
+  
+  .sub {
+    font-family: Montserrat, sans-serif;
+    align-self: center;
+    padding-left: 400px;
+    padding-top: 10px;
+  }
+  
+  .sub1 {
+    font-family: Montserrat, sans-serif;
+    align-self: center;
+    padding-left: 345px;
+    padding-top: 10px;
+  }
+  
+  .drop {
+    width: 95%;
+    height: 260px;
+  }
+  
+  .card405 {
+    border-radius: 5px
+  }
+  
+  .dropdown {
+    margin-bottom: 20px;
+  }
+  
+  h2.no-background {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h2.no-background span {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    display: inline;
+    vertical-align: auto;
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  h2.no-background span:before,
+  h2.no-background span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    top: 0.73em;
+    border-top: 2px solid var(--red);
+  }
+  
+  h2.no-background span:before {
+    right: 100%;
+  }
+  
+  h2.no-background span:after {
+    left: 100%;
+  }
+  
+  .r:hover {
+    background: var(--red);
+  }
+  
+  .g:hover {
+    background: var(--grayMedium);
+  }
+  
+  .d1 {
+    color: var(--white)
+  }
+  
+  .cc {
+    height: 168px;
+    padding-top: 0px;
+  
+  }
+  
+  .d-flex {
+    display: grid;
+    border-color: var(--black);
+  }
+  
+  .arrumar {
+    width: 850px;
+    margin-left: 10%;
+    text-align: justify;
+  }
+  
+  .back {
+    margin-left: 21%;
+    width: 58%;
+    height: 60%;
+    font-size: large;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .transform:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+  }
+  
+  .transform {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dp {
+    margin: 1%;
+    background-color: var(--white);
+    border-radius: 25px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    width: 25%;
+    padding-bottom: 1%;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .cimg {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+    background-color: var(--grayMedium);
+  }
+  
+  .img2 {
+    padding-top: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    margin-left: 14%;
+    width: 75%;
+  }
+  
+  .tcard-body {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+  }
+  
+  .p {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .h2 {
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .btt {
+    box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.281);
+    padding: auto;
+  }
+  
+  .card-body {
+    padding: 0%;
+  }
+  
+  .ddd {
+    width: 100%;
+  
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  /*teste*/
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+  }
+  
+  /* Card */
+  .tcard {
+    width: 300px;
+    height: 460px;
+    margin: 20px;
+    background-color: var(--white);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+  }
+  
+  /* Card Header*/
+  .tcard-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: var(--grayMedium);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+  }
+  
+  .tcard-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+  }
+  
+  /* Card Body */
+  .tcard-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .tcard-local {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .tcard-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+  }
+  
+  .tcard-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  /* Card Footer */
+  .tcard-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: var(--white);
+  }
+  
+  /* Animação Hover */
+  .tcard:hover {
+    transform: scale(1.02)
+  }
+  @media(max-width:550px) {
+    h2.no-background span:before {
+      width: 0%;
+    }
+    h2.no-background span:after {
+      width: 0%;
+    }
+  }

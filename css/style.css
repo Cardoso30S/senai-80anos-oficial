@@ -30,7 +30,6 @@ body {
     text-align: left;
     background-color: var(--gray);
     width: 100%;
-    min-height: 100%;
 }
 
 header {
@@ -216,4 +215,10 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+@media all and (min-width:1px) and (max-width:768px){
+    footer{
+       position: relative;
+    }
 }

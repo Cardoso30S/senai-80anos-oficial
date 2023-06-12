@@ -17,7 +17,7 @@
 
 html {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
 }
 
 body {
@@ -54,12 +54,10 @@ ul {
 
 main {
     max-width: 1140px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    min-height: 100%;
-    margin-block-end: 45px;
-    position: relative;
+    height: 100%;
+    margin-block-end: 195px;
 }
 
 h1 {
@@ -83,11 +81,11 @@ h2 {
 footer {
     background-color: var(--red);
     width: 100%;
-    height: 25%;
     bottom: 0;
     padding-bottom: 10px;
-    position: absolute;
-    margin: auto;
+    position: relative;
+    margin-top: auto;
+    height: 25%;
 }
 
 /* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
